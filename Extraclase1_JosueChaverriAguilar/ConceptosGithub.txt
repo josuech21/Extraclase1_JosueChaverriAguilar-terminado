@@ -1,0 +1,28 @@
+﻿Conceptos básicos de GitHub
+
+
+Clone: Esta opcion te permite trabajar con los repositorios existentes, y poder trabajar con la copia clonada, en estas copias de trabajo se puede trabajar
+también con el push y el pull.
+
+Push: El comando push se utiliza para cargar contenidao del repositorio local a un repositorio remoto, y puedes subir tus cambios de ese repositorio remoto
+junto con todas sus ramas mediante:
+git push --all <NOMBRE-REMOTO>
+Tambien se puede subir una rama especifica simplemente utilizando el siguiente comando:
+git push --force <NOMBRE-REMOTO> <RAMA-REMOTA>
+El cual permite subir solamente una rama en especifico.
+
+Git commit: Este comando guardara todos los cambios hechos en la zona de montaje  o área de preparación junto con un a descripcion del usuario "commit" en
+el repositorio local creado.Se podría decir que el "commit" es una captura del proyecto, donde se crea una nueva version del mismo y permite sobre todo, 
+recordar los cambios hechos en el proyecto, y los mismos permiten evitar sobreescribir información de distintos autores o individual.
+
+La opcion -m:	 La -m significa mensaje. Cuando se llama a git commit, es necesario incluir un mensaje.
+El mensaje debe ser una breve descripción de los cambios a los que se les está realizando commit.
+Para esta opción se utiliza el siguiente comando:
+git commit -m "Mi mensaje"
+
+Pull en github: El comando git pull se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio
+local para reflejar ese contenido.
+
+Pull requests: Los pull requests son la forma de contribuir a un proyecto grupal o de código abierto. Por ejemplo, un usuario1 realiza un cambio en un
+ repositorio de otro usuario2 y le efectúa algunos cambios. Ahora usuario1 puede hacer un pull request a usuario2, pero dependerá de usuario2 aceptar o declinarlo.
+ 

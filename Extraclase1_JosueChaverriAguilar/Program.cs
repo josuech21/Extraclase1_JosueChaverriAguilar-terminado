@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("a");
+﻿
+using System.Globalization;
+
+Console.WriteLine("Programa para ejercitar conceptos");
