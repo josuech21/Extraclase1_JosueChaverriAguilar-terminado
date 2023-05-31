@@ -4,7 +4,7 @@
 Clone: Esta opcion te permite trabajar con los repositorios existentes, y poder trabajar con la copia clonada, en estas copias de trabajo se puede trabajar
 también con el push y el pull.
 
-Push: El comando push se utiliza para cargar contenidao del repositorio local a un repositorio remoto, y puedes subir tus cambios de ese repositorio remoto
+Push: El comando push se utiliza para cargar contenido del repositorio local a un repositorio remoto, y puedes subir tus cambios de ese repositorio remoto
 junto con todas sus ramas mediante:
 git push --all <NOMBRE-REMOTO>
 Tambien se puede subir una rama especifica simplemente utilizando el siguiente comando:
