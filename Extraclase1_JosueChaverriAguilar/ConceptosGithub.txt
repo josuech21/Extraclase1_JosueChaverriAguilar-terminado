@@ -26,3 +26,5 @@ local para reflejar ese contenido.
 Pull requests: Los pull requests son la forma de contribuir a un proyecto grupal o de código abierto. Por ejemplo, un usuario1 realiza un cambio en un
  repositorio de otro usuario2 y le efectúa algunos cambios. Ahora usuario1 puede hacer un pull request a usuario2, pero dependerá de usuario2 aceptar o declinarlo.
  
+ Concepto Fetch:El comando git fetch descarga commits, archivos y referencias de un repositorio remoto a tu repositorio local. Esta acción la llevas a cabo cuando
+ quieres ver en qué han estado trabajando los demás. 
